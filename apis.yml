@@ -1,8 +1,23 @@
 aid: nexus-lab-technologies-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nexus-lab-technologies-inc.png
 name: Nexus Lab Technologies, Inc.
-description: Nexus Lab Technologies, Inc. is a company surfaced as a portfolio company of 500-global and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Nexus Lab (Nexus Lab Technologies, Inc.) is a contrail-reduction software company founded in
+  2022 and backed by 500 Global. Operating from nexuslab.fr, it applies machine learning to satellite imagery,
+  flight traffic data, and meteorological parameters to help airlines optimize flight paths and reduce
+  contrail formation, mitigating aviation's non-CO2 climate impact. As of this enrichment pass the company
+  publishes only a marketing website with no public API, developer portal, documentation, or SDKs; no
+  developer surface was found to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/nexus-lab-technologies-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,15 +27,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Aviation
+- Sustainability
+- Climate
+- Machine Learning
+- Contrails
+- Flight Optimization
+- Aerospace
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/nexus-lab-technologies-inc-domain-security.yml
 - type: Website
   url: https://nexuslab.fr
