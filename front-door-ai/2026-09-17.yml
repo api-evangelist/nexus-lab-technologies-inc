@@ -1,0 +1,25 @@
+# Front Door AI Index — nexus-lab-technologies-inc — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: nexus-lab-technologies-inc
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: nexuslab.fr
+  final_host: nexuslab.fr
+  ownership: own
+  owner: nexus-lab-technologies-inc
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 2
+  host_score: 2
+  density: 3.97
+  words: 504
+  tiers:
+    agentic: 0
+    core: 2
+    model: 0
+  ambiguous: 0
+  top_terms:
+    machine learning: 2
